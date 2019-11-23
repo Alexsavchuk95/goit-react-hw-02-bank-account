@@ -1,0 +1,29 @@
+.controls {
+  background: #062c56;
+  width: 100%;
+  height: 152px;
+}
+
+.label {
+  width: 676px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 56px;
+  margin: 0 auto;
+}
+
+.inputStyles {
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  width: 260px;
+  height: 40px;
+}
+
+.buttonStyles {
+  border-radius: 3px;
+  background-color: rgb(56, 132, 255);
+  color: #fff;
+  width: 187px;
+  border: 0px;
+}

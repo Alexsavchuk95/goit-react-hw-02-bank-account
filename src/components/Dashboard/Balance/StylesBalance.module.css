@@ -1,0 +1,8 @@
+.balance {
+  width: 454px;
+  height: 92px;
+  padding-top: 34px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
