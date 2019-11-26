@@ -22,9 +22,9 @@ export default class Dashborad extends Component {
     }));
   };
 
-  Sum = (items, typeTrancaction) => {
+  Sum = (items, typeTransaction) => {
     return items
-      .filter(el => el.type === typeTrancaction)
+      .filter(el => el.type === typeTransaction)
       .reduce((acc, el) => {
         let summ = acc;
         summ += el.amount;
