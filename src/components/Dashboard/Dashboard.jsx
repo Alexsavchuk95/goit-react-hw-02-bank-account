@@ -41,7 +41,7 @@ export default class Dashborad extends Component {
       <div className={styles.dashboard}>
         <Controls onTransaction={this.onTransaction} balance={balance} />
         <Balance income={income} expenses={expenses} balance={balance} />
-        {!!items.length && <TransactionHistory items={items} />}
+        {!items.length && <TransactionHistory items={items} />}
       </div>
     );
   }
